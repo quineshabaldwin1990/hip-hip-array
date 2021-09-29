@@ -16,7 +16,7 @@ const students = [
     'Andy'
   ];
 
-for (let i = 0; i < array1.length; i++) {
-    const students = array1[i];
-    console.log('i:', i, ', students:', students);
+for (let i = 0; i < students.length; i++) {
+    const value = students[i];
+    console.log('i:', i, ', value:', value);
 }
